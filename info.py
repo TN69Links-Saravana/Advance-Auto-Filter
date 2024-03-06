@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_Bot')
 API_ID = int(environ.get('API_ID', '24482734'))
 API_HASH = environ.get('API_HASH', '5ccf6a58166cc047a7eba01c5dbc930c')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6564513574:AAF1dwXAmMGbLFEIyb_eHGow9Q_561bWf2U')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6028645256:AAFmh1oZbgZWUPLABxiz9zTuYK59SDKZTQA')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -42,8 +42,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sushankm16:4i1WAfPYKWyqPIDD@cluster0.sngp9pz.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "vjbotsaban")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tn69links:cY6oAdj4gRdX2ytN@cluster0.sga3dau.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "tn69links")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjbots')
 
 # Others
